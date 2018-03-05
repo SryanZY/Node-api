@@ -24,7 +24,7 @@ fs.stat('./index.js', (err, stats) => {
 
 /*对文件进行监听*/
 fs.watch('./', {
-    recursive: true // 是否对文件进行轮询
+    recursive: true // 是否对文件进行轮询监听
 }, (eventType, filename) => {
     console.log(eventType, filename);
     // eventType:对文件进行的操作；filename:发生改变的文件名

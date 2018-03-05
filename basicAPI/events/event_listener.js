@@ -2,7 +2,7 @@
  * @Author: SryanZY 
  * @Date: 2018-02-23 16:35:48 
  * @Last Modified by: SryanZY
- * @Last Modified time: 2018-02-23 16:45:46
+ * @Last Modified time: 2018-03-05 10:40:22
  */
 
 /*一个事件绑定多个事件处理函数&事件的移除*/

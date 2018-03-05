@@ -2,7 +2,7 @@
  * @Author: SryanZY 
  * @Date: 2018-02-22 15:21:39 
  * @Last Modified by: SryanZY
- * @Last Modified time: 2018-02-22 16:00:07
+ * @Last Modified time: 2018-03-05 10:02:39
  */
 
 /* Buffer类的方法*/
@@ -38,6 +38,8 @@ console.log(bufff5.equals(bufff7));
 const StringDecoder = require('string_decoder').StringDecoder;
 const decoder = new StringDecoder('utf8'); // 实例化并传入格式，大部分都是utf8
 const buf_chn = Buffer.from('中文字符串!');
+
+// buffer.copy(buffer_copoied):将buffer拷贝到buffer_copoied
 
 for (let i = 0; i < buf_chn.length; i+=5) { // 每隔5个字节输出一次，为了错开中文3的字节
     const b = Buffer.allocUnsafe(5);

@@ -2,10 +2,10 @@
  * @Author: SryanZY 
  * @Date: 2018-02-22 15:09:17 
  * @Last Modified by: SryanZY
- * @Last Modified time: 2018-02-22 15:20:35
+ * @Last Modified time: 2018-03-05 09:52:51
  */
 
- /*buffer用来读取或者处理二进制数据，大小固定*/
+ /*buffer用来读取或者处理二进制数据，大小固定（长度是256位）*/
  
  /* Buffer的初始化*/
  /*Buffer.alloc创建一定长度的buffer字段，默认是用0填充，也可自定义 */
