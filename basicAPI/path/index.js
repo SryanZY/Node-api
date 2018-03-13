@@ -2,12 +2,12 @@
  * @Author: SryanZY 
  * @Date: 2018-02-22 09:54:06 
  * @Last Modified by: SryanZY
- * @Last Modified time: 2018-02-22 16:39:47
+ * @Last Modified time: 2018-03-13 09:36:15
  */
 
  /*normalize-可以将路径规范化*/
  const {normalize} = require('path');
- // 等同于 const normalize = require('path').normalize()
+ // 等同于 const normalize = require('path').normalize
 console.log(normalize('/user/static//basic'));
 
 /*join-拼接(当路径格式不规范时会默认使用normalize)*/
